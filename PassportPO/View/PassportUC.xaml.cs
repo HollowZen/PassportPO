@@ -1,6 +1,6 @@
 using System.Windows.Controls;
 
-namespace PassportPO.View;
+namespace PassportPO.View{
 
 public partial class PassportUC : UserControl
 {
@@ -8,4 +8,4 @@ public partial class PassportUC : UserControl
     {
         InitializeComponent();
     }
-}
+}}

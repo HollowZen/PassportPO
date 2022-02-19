@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 using System.Windows.Input;
 using PassportPO.Model;
 
-namespace PassportPO.ViewModel.PageViewModel;
+namespace PassportPO.ViewModel.PageViewModel{
 
 internal class ViseVm: ViewModelBase
 {
@@ -347,4 +347,4 @@ internal class ViseVm: ViewModelBase
             BDset();
 
         }
-}
+}}

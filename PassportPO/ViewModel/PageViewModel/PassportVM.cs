@@ -8,7 +8,7 @@ using PassportPO.ViewModel.Base;
 using PassportPO.Model;
 
 
-namespace PassportPO.ViewModel.PageViewModel;
+namespace PassportPO.ViewModel.PageViewModel{
 
 internal class PassportVm: ViewModelBase
 {
@@ -356,4 +356,4 @@ internal class PassportVm: ViewModelBase
         {
             BDset();
         }
-}
+}}

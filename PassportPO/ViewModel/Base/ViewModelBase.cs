@@ -2,7 +2,7 @@ using System;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
 
-namespace PassportPO.ViewModel.Base;
+namespace PassportPO.ViewModel.Base{
 
 internal abstract class ViewModelBase: INotifyPropertyChanged,IDisposable
 {
@@ -41,4 +41,4 @@ internal abstract class ViewModelBase: INotifyPropertyChanged,IDisposable
         _disposed = true;
         return _disposed;
     }
-}
+}}

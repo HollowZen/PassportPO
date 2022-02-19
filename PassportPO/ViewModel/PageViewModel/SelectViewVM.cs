@@ -1,7 +1,7 @@
 using System.Windows.Input;
 using PassportPO.Infrastructure.Command.Base;
 
-namespace PassportPO.ViewModel.PageViewModel;
+namespace PassportPO.ViewModel.PageViewModel{
 internal class SelectViewVm
 {
     private RelayCommand? _passCommand;
@@ -40,4 +40,4 @@ internal class SelectViewVm
             return _vizaCommand;
         }
     }
-}
+}}

@@ -4,7 +4,7 @@ using PassportPO.Model;
 using System.Linq;
 using System.Windows.Input;
 
-namespace PassportPO.ViewModel.PageViewModel;
+namespace PassportPO.ViewModel.PageViewModel{
 
 internal class RegVm: ViewModelBase
 {
@@ -93,4 +93,4 @@ internal class RegVm: ViewModelBase
         #endregion
 
         #endregion
-    }
+    }}

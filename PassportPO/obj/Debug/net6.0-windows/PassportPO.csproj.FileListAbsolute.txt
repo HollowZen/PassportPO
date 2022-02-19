@@ -42,6 +42,7 @@ C:\Users\egmal\RiderProjects\PassportPO\PassportPO\obj\Debug\net6.0-windows\View
 C:\Users\egmal\RiderProjects\PassportPO\PassportPO\obj\Debug\net6.0-windows\View\MainWindow.g.cs
 C:\Users\egmal\RiderProjects\PassportPO\PassportPO\obj\Debug\net6.0-windows\View\PassportUC.g.cs
 C:\Users\egmal\RiderProjects\PassportPO\PassportPO\obj\Debug\net6.0-windows\View\RegUC.g.cs
+C:\Users\egmal\RiderProjects\PassportPO\PassportPO\obj\Debug\net6.0-windows\View\SelectPage.g.cs
 C:\Users\egmal\RiderProjects\PassportPO\PassportPO\obj\Debug\net6.0-windows\View\ViseUC.g.cs
 C:\Users\egmal\RiderProjects\PassportPO\PassportPO\obj\Debug\net6.0-windows\App.g.cs
 C:\Users\egmal\RiderProjects\PassportPO\PassportPO\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
@@ -52,6 +53,7 @@ C:\Users\egmal\RiderProjects\PassportPO\PassportPO\obj\Debug\net6.0-windows\View
 C:\Users\egmal\RiderProjects\PassportPO\PassportPO\obj\Debug\net6.0-windows\View\MainWindow.baml
 C:\Users\egmal\RiderProjects\PassportPO\PassportPO\obj\Debug\net6.0-windows\View\PassportUC.baml
 C:\Users\egmal\RiderProjects\PassportPO\PassportPO\obj\Debug\net6.0-windows\View\RegUC.baml
+C:\Users\egmal\RiderProjects\PassportPO\PassportPO\obj\Debug\net6.0-windows\View\SelectPage.baml
 C:\Users\egmal\RiderProjects\PassportPO\PassportPO\obj\Debug\net6.0-windows\View\ViseUC.baml
 C:\Users\egmal\RiderProjects\PassportPO\PassportPO\obj\Debug\net6.0-windows\PassportPO.g.resources
 C:\Users\egmal\RiderProjects\PassportPO\PassportPO\obj\Debug\net6.0-windows\PassportPO.GeneratedMSBuildEditorConfig.editorconfig
@@ -63,5 +65,3 @@ C:\Users\egmal\RiderProjects\PassportPO\PassportPO\obj\Debug\net6.0-windows\Pass
 C:\Users\egmal\RiderProjects\PassportPO\PassportPO\obj\Debug\net6.0-windows\ref\PassportPO.dll
 C:\Users\egmal\RiderProjects\PassportPO\PassportPO\obj\Debug\net6.0-windows\PassportPO.pdb
 C:\Users\egmal\RiderProjects\PassportPO\PassportPO\obj\Debug\net6.0-windows\PassportPO.genruntimeconfig.cache
-C:\Users\egmal\RiderProjects\PassportPO\PassportPO\obj\Debug\net6.0-windows\View\SelectPage.g.cs
-C:\Users\egmal\RiderProjects\PassportPO\PassportPO\obj\Debug\net6.0-windows\View\SelectPage.baml

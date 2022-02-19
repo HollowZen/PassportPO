@@ -5,7 +5,7 @@ using PassportPO.Infrastructure.Command.Base;
 using PassportPO.Model;
 using PassportPO.ViewModel.MainViewModel;
 
-namespace PassportPO.ViewModel.PageViewModel;
+namespace PassportPO.ViewModel.PageViewModel{
 
 internal class AuthVm: ViewModelBase
 {
@@ -77,4 +77,4 @@ internal class AuthVm: ViewModelBase
         #endregion
 
         #endregion
-}
+}}
