@@ -28,14 +28,6 @@
         
     </Window.Resources>
     <DockPanel>
-        <Grid DockPanel.Dock="Bottom">
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition/>
-                <ColumnDefinition/>
-                <ColumnDefinition/>
-            </Grid.ColumnDefinitions>
-        </Grid>
-        <ContentControl x:Name="Pages" DockPanel.Dock="Top" Content="{Binding SelectedViewModel,UpdateSourceTrigger=PropertyChanged}"/>
+        <ContentControl DockPanel.Dock="Top" Content="{Binding SelectedViewModel,UpdateSourceTrigger=PropertyChanged}"/>
     </DockPanel>
-    
 </Window>
