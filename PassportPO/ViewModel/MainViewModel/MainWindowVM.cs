@@ -34,7 +34,7 @@ internal class MainWindowVm: Base.ViewModelBase
 
         #region Стартовая Навигации
 
-        SelectedViewModel = new AuthVM();
+        SelectedViewModel = new AuthVm();
         Root = this;
 
         #endregion

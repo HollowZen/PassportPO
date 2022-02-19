@@ -8,7 +8,7 @@
 
     <!--Контекст окна-->
     <UserControl.DataContext>
-        <vm:AuthVM/>
+        <vm:AuthVm/>
     </UserControl.DataContext>
 
     <DockPanel>

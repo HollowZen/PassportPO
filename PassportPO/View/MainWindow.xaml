@@ -13,10 +13,10 @@
     </Window.DataContext>
 
     <Window.Resources>
-        <DataTemplate DataType="{x:Type vm:AuthVM}">
+        <DataTemplate DataType="{x:Type vm:AuthVm}">
             <view:AuthUC/>
         </DataTemplate>
-        <DataTemplate DataType="{x:Type vm:RegVM}">
+        <DataTemplate DataType="{x:Type vm:RegVm}">
             <view:RegUC/>
         </DataTemplate>
         <DataTemplate DataType="{x:Type vm:PassportVM}">

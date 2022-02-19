@@ -8,7 +8,7 @@
 
     <!--Контекст окна-->
     <UserControl.DataContext>
-        <vm:RegVM/>
+        <vm:RegVm/>
     </UserControl.DataContext>
 
     <DockPanel>
@@ -20,7 +20,7 @@
             </StackPanel>
         </Grid>
         <!--Панель кнопок-->
-        <Button DockPanel.Dock="Bottom" x:Name="Registration" Content="Регистрация" FontSize="20" Grid.Column="0" Command="{Binding RegCommand}"/>
+        <Button DockPanel.Dock="Bottom" x:Name="Registration" Content="Регистрация" FontSize="20" Command="{Binding RegCommand}"/>
         <!--Область Ввода Данных-->
         <StackPanel  Margin="0,34,0,0">
 
