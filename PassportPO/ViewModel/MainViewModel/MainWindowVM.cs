@@ -1,38 +1,40 @@
+using PassportPO.ViewModel.PageViewModel;
+
 namespace PassportPO.ViewModel.MainViewModel;
 
-internal class MainWindowVM: Base.ViewModelBase
+internal class MainWindowVm: Base.ViewModelBase
 {
     #region Заголовок Окна // String
 
-    private string? _Title = "PassportPO";
-    public string? Title { get => _Title; set => Set(ref _Title, value); }
+    private string? _title = "PassportPO";
+    public string? Title { get => _title; set => Set(ref _title, value); }
 
     #endregion
 
     #region Свойство навигации // Object
 
-    private object _SelectedViewModel;
+    private object _selectedViewModel;
     public object SelectedViewModel
     {
-        get => _SelectedViewModel;
-        set => Set(ref _SelectedViewModel, value);
+        get => _selectedViewModel;
+        set => Set(ref _selectedViewModel, value);
     }
     #endregion
 
     #region Статичное поле для вызова навигации // Root
 
-    public static MainWindowVM Root;
+    public static MainWindowVm Root;
 
     #endregion
 
     #region Метод класса
 
-    public MainWindowVM()
+    public MainWindowVm()
     {
 
         #region Стартовая Навигации
 
-        /*SelectedViewModel = new AuthViewModel();*/
+        SelectedViewModel = new AuthVM();
         Root = this;
 
         #endregion
