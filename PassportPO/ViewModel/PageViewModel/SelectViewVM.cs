@@ -32,7 +32,7 @@ internal class SelectViewVm
                 _vizaCommand = new RelayCommand(
                     param =>
                     {
-                        MainViewModel.MainWindowVm.Root.SelectedViewModel = new ViseVM();
+                        MainViewModel.MainWindowVm.Root.SelectedViewModel = new ViseVm();
                     },
                     param => true
                 );
