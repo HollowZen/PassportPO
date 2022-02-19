@@ -63,3 +63,5 @@ C:\Users\egmal\RiderProjects\PassportPO\PassportPO\obj\Debug\net6.0-windows\Pass
 C:\Users\egmal\RiderProjects\PassportPO\PassportPO\obj\Debug\net6.0-windows\ref\PassportPO.dll
 C:\Users\egmal\RiderProjects\PassportPO\PassportPO\obj\Debug\net6.0-windows\PassportPO.pdb
 C:\Users\egmal\RiderProjects\PassportPO\PassportPO\obj\Debug\net6.0-windows\PassportPO.genruntimeconfig.cache
+C:\Users\egmal\RiderProjects\PassportPO\PassportPO\obj\Debug\net6.0-windows\View\SelectPage.g.cs
+C:\Users\egmal\RiderProjects\PassportPO\PassportPO\obj\Debug\net6.0-windows\View\SelectPage.baml
