@@ -69,6 +69,7 @@
         <!--Область вывода данных-->
         <DataGrid ItemsSource="{Binding PassportLists, UpdateSourceTrigger=PropertyChanged}"
                   AutoGenerateColumns="False"
+                  FontSize="20"
                    >
             <DataGrid.Columns>
                 <DataGridTextColumn Header="Id" Binding="{Binding Id}"/>

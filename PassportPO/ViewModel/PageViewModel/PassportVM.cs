@@ -209,7 +209,16 @@ internal class PassportVm: ViewModelBase
                             Kemstring = null; SitizenShipstring = null;
 
                         },
-                        param => true
+                        param =>
+                        {
+                            if (IdStrstring == null && Namestring != null
+                                && SurNamestring != null 
+                                && SecondNamestring != null
+                                && Kemstring != null
+                                && Kodstring != null
+                                && SitizenShipstring != null) return true;
+                            return false;
+                        }
                     );
                 }
 
@@ -256,7 +265,13 @@ internal class PassportVm: ViewModelBase
                             }
 
                         }
-                    , param => true);
+                    , param => { if ( Namestring != null && SurNamestring != null 
+                                                         && SecondNamestring != null
+                                                         && Kemstring != null
+                                                         && Kodstring != null
+                                                         && SitizenShipstring != null) return true; 
+                            return false;
+                        });
                 }
 
                 return _changeButton;
@@ -289,7 +304,11 @@ internal class PassportVm: ViewModelBase
                             Idsstring = PassportLists.Select(j => j.Id).ToList();
 
                         },
-                        param => true);
+                        param =>
+                        {
+                            if (IdStrstring != null) return true;
+                            return false;
+                        });
                 }
 
                 return _deleteButton;
