@@ -37,8 +37,8 @@ internal class ViseVm: ViewModelBase
             set => Set(ref _secondName, value);
         }
 
-        private bool? _status;
-        public bool? Statusstring
+        private bool _status;
+        public bool Statusstring
         {
             get => _status;
             set => Set(ref _status, value);
@@ -193,7 +193,7 @@ internal class ViseVm: ViewModelBase
                             OnPropertyChanged(nameof(VizeLists));
 
                             Namestring = null; SurNamestring = null;
-                            SecondNamestring = null; Statusstring = null;
+                            SecondNamestring = null; Statusstring = false;
                             SitizenShipstring = null;
 
                         },
@@ -243,7 +243,7 @@ internal class ViseVm: ViewModelBase
                                 Namestring = null;
                                 SurNamestring = null;
                                 SecondNamestring = null;
-                                Statusstring = null;
+                                Statusstring = false;
                                 SitizenShipstring = null;
                             }
 
@@ -316,7 +316,7 @@ internal class ViseVm: ViewModelBase
                             Namestring = objectTable.Name;
                             SurNamestring = objectTable.SurName;
                             SecondNamestring = objectTable.SecondName;
-                            Statusstring = objectTable.Status;
+                            Statusstring = Convert.ToBoolean(objectTable.Status);
                             SitizenShipstring = objectTable.CitizenShip;
                             db.Dispose();
                             OnPropertyChanged();
